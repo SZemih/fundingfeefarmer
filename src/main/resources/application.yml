@@ -1,0 +1,19 @@
+server:
+  servlet:
+    context-path: /funding-fee-farmer/api
+spring:
+  application:
+    name: funding-fee-farmer
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: fundingFeeFarmer
+      auto-index-creation: on
+  jackson:
+    default-property-inclusion: non_null
+funding-fee-farmer:
+  um-futures-base-url: https://fapi.binance.com
+  api-key: "ECNh5cNP3qBMrcS1EBWn9wRFzAoBFPQ7PZB0NYNmNSaquHCGV5vkL78x9pSgXxJG"
+  secret-key: "PlyFOTKZeEBpwSjDcbacoODRPLpc6GOnqCa6k5we8ZTuK44uxaSQp9Hn2kIZmCiI"
+
